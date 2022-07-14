@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.head,.des{
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.head{
+    margin-top: -40px;
+    /* padding-top: 70px; */
+    font-size: 100px;
+}
+.des{
+    font-size: 45px;
+    margin-top: -20px;
+}
+.cafe{
+    margin-top: -70px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.nav{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/co4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 30px;
+    margin-top: -200px;
+}
+ul{
+    display:flex;
+    margin-top: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+a{
+color: white;
+margin-left: 80px;
+font-size: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 25px;
+    text-decoration:line-through;
+}
+.main{
+    width: 100%; 
+     height: 790px;
+margin-top: -40px;
+background-color: #1b0000;
+    }
+
+#img1{
+    border-radius: 100%;
+    width: 55px;
+    margin-top: 120px;
+    margin-left: 450px;
+}
+#id{
+    color: black;
+}
+.offer,.our{
+    padding-top: 25px;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+font-size: 30px;
+}
+#offer,.cover{
+    width: 260px;
+    height: 38px;
+    background-color: chocolate;
+    margin-top: -55px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-size: 21px;
+}
+.img2,.img3,.img4,.img5{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.img2{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#d1,#d2,#d3,#d4{
+    width: 390px;
+    height: 210px;
+    background-color: chocolate;
+    border: white 2px solid;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+
+}
+#d1,#d3{
+    margin-top: -205px;
+    margin-left: 200px;
+}
+.ara{
+font-size: 18px;
+}
+#d2,#d4{
+margin-top: -210px;
+margin-left: 738px;
+}
+.img3,.img5{
+margin-top: -250px;
+margin-left: 1075px;
+margin-bottom: 20px;
+}
+.img4{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#ourmenu{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(202, 199, 199);
+    margin-top: 20px;
+    color: white;
+}
+.our{
+margin-left: 40px;
+}
+.support{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background-color: none;
+    position: sticky;
+top: 500px;
+left: 1090px;
+}
+#grad1{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/expresso.jpg);
+background-size: cover;
+position: absolute;
+}
+#grad1:hover,#grad2:hover,#grad3:hover,#grad4:hover,#grad5:hover,#grad6:hover,#grad7:hover{
+    width: 270px;
+    height: 270px;
+    box-shadow: 0px 0px 15px #CC7722;
+}
+#grad1:hover{
+    background-image: url(./img/expresso.jpg);
+}
+.expresso{
+    margin-top: -200px;
+    margin-left: 50px;
+    
+}
+#exp{
+width: 200px;
+height: 200px;
+}
+span{
+    margin-top: 210px;
+    margin-left: 10px;
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+font-size: 25px;
+}
+#grad2{
+position: absolute;
+width: 250px;
+height: 250px;
+margin-top: 20px;
+background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/doppio.jpg);
+background-size: cover;
+margin-left: 350px;
+}
+#grad2:hover{
+background-image: url(./img/doppio.jpg);
+}
+#grad3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/latte1.jpeg);
+    background-size: cover;
+     margin-left: 680px;
+}
+#grad3:hover{
+    background-image: url(./img/latte1.jpeg);
+}
+#grad4{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/mocha.webp);
+    background-size: cover;
+     margin-left: 1010px;
+}
+#grad4:hover{
+    background-image: url(./img/mocha.webp);
+}
+#grad5{
+    width: 250px;
+    height: 250px;
+    margin-top: 350px;
+    margin-left: 210px;
+    background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/americano.jpg);
+background-size: cover;
+position: absolute;
+}
+#grad5:hover{
+    background-image: url(./img/americano.jpg);
+}
+.gallery1{
+    margin-left: 25px;
+}
+.gallery1,.gallery2{
+    position: relative;
+display: flex;
+}
+#grad6{
+    width: 250px;
+    height: 250px;
+    margin-top: 350px;
+    margin-left: 540px;
+    background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/irish.webp);
+background-size: cover;
+position: absolute;
+}
+#grad6:hover{
+    background-image: url(./img/irish.webp);
+}
+#grad7{
+    width: 250px;
+    height: 250px;
+    margin-top: 350px;
+    margin-left: 870px;
+    margin-right: 210px;
+    background-image: linear-gradient(45deg, #CC7722 35%, transparent 35%), url(./img/fredo.jpg);
+background-size: cover;
+position: absolute;
+}
+#grad7:hover{
+    background-image: url(./img/fredo.jpg);
+}
+.c1,.c2{
+    width: 130px;
+    height: 130px;
+    /* margin-top: -300px; */
+    background-color: #CC7722;
+    border-radius: 50%;
+}
+.c1{
+    margin-left: 20px;
+    margin-top: -500px;
+}
+.c2{
+    margin-left: 1180px;
+    margin-top: -130px;
+}
+#imgs,#imgss{
+    border-radius: 100%;
+    width: 80px;
+}
+#imgs{
+    margin-left: 90px;
+}
+#imgss{
+ margin-left: -40px;
+}
+footer{
+    width: 100%;
+    height: 230px;
+    background-color: #1b0000;
+    margin-top: 970px;
+}
+#query{
+    text-align: center;
+    color: #1b0000;
+    margin-top: -300px;
+}
+form{
+    background-color: #CC7722;
+    width: 400px;
+    height: 220px;
+    margin-left: 470px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+.name{
+    padding: 20px;
+}
+.que{
+    padding: 20px;
+}
+textarea{
+    vertical-align: top;
+    border: none;
+}
+input{
+    border: none;
+}
+button{
+    margin-top: 10px;
+    background-color: #1b0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+#imgf{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#foot{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 47px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+#p1{
+    font-family: 'Dancing Script', cursive;
+margin-top: -30px;
+margin-left: 15px;
+}
+#follow{
+    color: white;
+    margin-left: 550px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 20px;
+    margin-top: -110px;
+
+}
+.fa-brands{
+    padding-left: 20px;
+    padding-top: -20px;
+    margin-top: -10px;
+}
+#add{
+    margin-left: 900px;
+    margin-top: -100px;
+    /* width: 150px; */
+}
+#size1{
+    font-size: 15px;
+}
+#size2{
+    font-size: 13px;
+}
+#last{
+    font-size: 13px;
+    text-align: center;
+}
